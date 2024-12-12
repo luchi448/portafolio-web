@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-image: url(imagenes/violeta.png);
+            color: #a600ff;
+            padding: 10px 35px;
+            text-align: center;
+           font-size: 20px;
+           color: #ffffff;
+          
+    
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #a600ff;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        .project p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer a {
+            color: #00fff2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <p>Producción multimedia</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p> Mi nombre es Ivana Lucia Bonilla Barrera, tengo 18 años me gusta leer, bailar, escribir pero me gusta mucho mas dibujar. 
+                Aprendi a dibujar en pandemia, fue un proceso muy bonito, me disfrute cada dibujo que realice,
+                me gustaria seguir aprendiendo y llegar a realizar retratos. Me gusta dibujar más con lapiz pero tambien es 
+                muy interesante hacerlo con boligrafo o acuarelas. Me gusta dibujar en mis tiempos libres y aaprender nuevas tecnicas, 
+                hace un tiempo no dibujo porque he estado más enfocada en el sena pero me gustaria tener más tiempo para hacerlo.
+            </p>
+        </section>
+
+        <section id="sobre mi">
+            <h2>sobre mi</h2>
+            <div class="portfolio">
+                <div class="project">
+                    <img src="imagenes/ivana.jpg" alt="Proyecto 1">
+                    <h3>Sobre mi</h3>
+                    <p>Mi banda favorita son the beatles</p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/azul.jpg" alt="Proyecto 2">
+                    <h3>Sobre mi</h3>
+                    <p>Mi libro favorito es El tunel de Ernesto Sabato</p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/negro.jpg" alt="Proyecto 3">
+                    <h3>Sobre mi</h3>
+                    <p>Mi equipo favorito de futbol es millonarios porque soy de bogota</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Proyectos</h2>
+            <div class="portfolio">
+                <div class="project">
+                    <img src="imagenes/it.jpg" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Pelicula it
+                        Lo realice porque es una pelicula que le causa mucho terror a mi hermana
+                    </p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/dos.jpg" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Este fue el segundo dibujo que realice cuando estaba aprendiendo</p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/amarillo.jpg" alt="Proyecto 3">
+                    <h3>Proyecto 3</h3>
+                    <p>Este lo realice porque me gustan los payasos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Proyectos</h2>
+            <div class="portfolio">
+                <div class="project">
+                    <img src="imagenes/rockroll.jpg" alt="Proyecto 1">
+                    <h3>Proyecto 4</h3>
+                    <p>Este dibujo lo realice como un afiche para pegarlo en mi cuarto, me parecio que quedo muy bien</p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/chico.jpg" alt="Proyecto 2">
+                    <h3>Proyecto 5</h3>
+                    <p>Este fue el primer dibujo que realice en retrato</p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/charlie.jpg" alt="Proyecto 3">
+                    <h3>Proyecto 6</h3>
+                    <p>Este lo realice porque me gusta mucho Charlie Chaplin y sus peliculas tambien, queria pegarlo en mi cuarto
+                        para este dibujo utilice 10 colores (Verde, amarillo, amarillo fundido, morado, naranja, 
+                        azul claro, azul oscuro, un naranja ladrillo, negro y blanco)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Proyectos</h2>
+            <div class="portfolio">
+                <div class="project">
+                    <img src="imagenes/goku.jpg" alt="Proyecto 1">
+                    <h3>Proyecto 7</h3>
+                    <p>Este lo realice porque es el personaje favorito de mi mamá</p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/cristiano.jpg" alt="Proyecto 2">
+                    <h3>Proyecto 8</h3>
+                    <p>Este lo realice porque le gusta a mi hermana
+                        para Cristiano Ronaldo utilice colores frios y calidos para que se tomara la textura 
+                        de su rostro y un fondo negro para que los colores le dieran vida al dibujo 
+                    </p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/naruto.jpg" alt="Proyecto 3">
+                    <h3>Proyecto 9</h3>
+                    <p>Este fue el primer dibujo que le regale a mi mamá</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Proyectos</h2>
+            <div class="portfolio">
+                <div class="project">
+                    <img src="imagenes/pato.jpg" alt="Proyecto 1">
+                    <h3>Proyecto 10</h3>
+                    <p>Este lo realice porque es mi personaje favorito
+                        utilice 6 colores (Rojo, naranja, amarillo. rosado, negro y blanco)
+                    </p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/pintura.jpg" alt="Proyecto 2">
+                    <h3>Proyecto 11</h3>
+                    <p>Es el primer dibujo elaborado con pintura basado en Medusa.</p>
+                </div>
+                <div class="project">
+                    <img src="imagenes/spiderman.jpg" alt="Proyecto 3">
+                    <h3>Proyecto 12</h3>
+                    <p>El dibujo de Spiderman fue uno de los primeros dibujos que realice cuando estaba aprendiendo 
+                        a dibujar, utilice marcador negro para delinear y lo demas fue con colores.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Si quieres trabajar conmigo, puedes escribirme a <a href="mailto:tuemail@example.com">ivanabonilla706@gmail.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
